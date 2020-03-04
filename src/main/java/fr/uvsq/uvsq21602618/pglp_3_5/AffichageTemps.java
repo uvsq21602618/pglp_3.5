@@ -4,9 +4,8 @@ import java.time.LocalDateTime;
 
 public class AffichageTemps implements Affichage {
 
-	public void affichageTemporel(String descriptif) {
+	public void affichageTemporel(final String descriptif) {
 		System.out.println(LocalDateTime.now() + descriptif);
-		
 	}
 
 }
