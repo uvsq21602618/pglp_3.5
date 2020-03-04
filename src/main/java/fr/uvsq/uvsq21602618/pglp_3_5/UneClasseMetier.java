@@ -12,4 +12,10 @@ public class UneClasseMetier {
 		//Traitement métier
 		this.AT.affichageTemporel(": Fin de uneMethodeMetier");
 	}
+	
+	public void uneMethodeMetierSLF4J() {
+		this.AT.affichageTemporelSLF4J(": Début de uneMethodeMetier");
+		//Traitement métier
+		this.AT.affichageTemporelSLF4J(": Fin de uneMethodeMetier");
+	}
 }
