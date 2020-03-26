@@ -13,8 +13,8 @@ public class AffichageTemps implements Affichage {
     /**
      * Le logger utilisé.
      */
-	final private Logger logger;
-	/**
+    private final Logger logger;
+    /**
 	 * Méthode pour afficher le temps avec un logger.
 	 */
 	public AffichageTemps() {
