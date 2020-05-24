@@ -8,8 +8,6 @@ import java.time.LocalDateTime;
 
 import org.junit.Test;
 
-import fr.uvsq.uvsq21602618.pglp_4_1.NumeroTelephone;
-
 /**
  * Classe de tests pour la classe AffichageTemps.
  * @author Nathalie
